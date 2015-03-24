@@ -1,0 +1,19 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 2.83 sec <<< FAILURE! - in TestSuite
+test1(com.framework.datadriven.suiteA.Test1)  Time elapsed: 0.026 sec  <<< FAILURE!
+java.lang.NullPointerException: null
+	at com.framework.datadriven.TestBase.validateRunModes(TestBase.java:37)
+	at com.framework.datadriven.suiteA.Test1.test1(Test1.java:25)
+
+test1(com.framework.datadriven.suiteA.Test1)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException: null
+	at com.framework.datadriven.TestBase.validateRunModes(TestBase.java:37)
+	at com.framework.datadriven.suiteA.Test1.test1(Test1.java:25)
+
+test1(com.framework.datadriven.suiteA.Test1)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException: null
+	at com.framework.datadriven.TestBase.validateRunModes(TestBase.java:37)
+	at com.framework.datadriven.suiteA.Test1.test1(Test1.java:25)
+
